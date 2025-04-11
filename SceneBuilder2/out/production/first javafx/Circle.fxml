@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+
+<AnchorPane fx:id="anchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CircleController">
+   <children>
+      <Button layoutX="269.0" layoutY="29.0" mnemonicParsing="false" onAction="#up" text="Up" />
+      <Button layoutX="14.0" layoutY="188.0" mnemonicParsing="false" onAction="#left" text="Left" />
+      <Button layoutX="524.0" layoutY="176.0" mnemonicParsing="false" onAction="#right" text="Right" />
+      <Button layoutX="269.0" layoutY="351.0" mnemonicParsing="false" onAction="#down" text="Down" />
+      <Circle fx:id="myGameCircle" fill="DODGERBLUE" layoutX="287.0" layoutY="200.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" />
+      <Button layoutX="441.0" layoutY="29.0" mnemonicParsing="false" onAction="#diagonalUpRight" text="Diagonal Up Right" />
+      <Button layoutX="422.0" layoutY="339.0" mnemonicParsing="false" onAction="#diagonalDownRight" text="Diagonal Down Right" />
+      <Button layoutX="14.0" layoutY="29.0" mnemonicParsing="false" onAction="#diagonalUpLeft" text="Diagonal Up Left" />
+      <Button layoutX="14.0" layoutY="339.0" mnemonicParsing="false" onAction="#diagonalDownLeft" text="Diagonal Down Left" />
+      <Button layoutX="242.0" layoutY="254.0" mnemonicParsing="false" onAction="#changeColor" text="Turn to red" />
+      <Button layoutX="235.0" layoutY="115.0" mnemonicParsing="false" onAction="#changeOneByOneColor" text="Change color" />
+      <Button layoutX="14.0" layoutY="266.0" mnemonicParsing="false" onAction="#changeBackgroundColorToRandom" text="Change color to random" />
+   </children>
+</AnchorPane>
